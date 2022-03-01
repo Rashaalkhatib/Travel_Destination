@@ -1,3 +1,4 @@
+import ".Home.css"
 import Header from '/Header';
 import Footer from "/Footer";
 import tours from "./tours";
