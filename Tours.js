@@ -5,16 +5,13 @@ const tours= (props) =>{
         {
             props.tours.map(tour => {
                 return(
-                    <div>
-                        <img src={tour.image} alt="" />
-                        <h3>{r=tour.name}</h3>
- <Routes>
+                <Routes>
         <Route path="<Tour/ tour={tour} >" element={<Home />} 
-        <
+        
      
     </Routes>
                        
-                    </div>
+                  
                 )
                 
             })
