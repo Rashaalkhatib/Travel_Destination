@@ -8,6 +8,11 @@ const tours= (props) =>{
                     <div>
                         <img src={tour.image} alt="" />
                         <h3>{r=tour.name}</h3>
+ <Routes>
+        <Route path="<Tour/ tour={tour} >" element={<Home />} 
+        <
+     
+    </Routes>
                        
                     </div>
                 )
