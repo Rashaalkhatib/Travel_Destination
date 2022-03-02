@@ -1,13 +1,14 @@
 
-function Header(){
-    return(
-        <header>
-            <nav>
-                <a href="http://google.com">Google</a>
-                <a href="http://facebook.com">Facebook</a>
-            </nav>
-        </header>
-    )
-};
+import {Link} from 'react-router-dom';
 
-export  default Header;
+
+let Header = () => {
+    return(
+        <nav>
+            <Link to="/"> Home</Link>
+            
+        </nav>
+    );
+}
+
+export default Header;
